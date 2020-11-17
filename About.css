@@ -1,0 +1,50 @@
+
+nav{
+  display: inline-grid;
+  justify-content: center;
+  align-items:center;
+  min-height: 8vh;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+
+}
+.logo{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.nav-links{
+  display: block;
+  width: 70px;
+  letter-spacing: 5px;
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  width:100px;
+  spacing: 30px;
+}
+
+.heading{
+  color: white;
+  position: absolute;
+  top: 46%;
+  width: 100%;
+  text-align: left;
+  letter-spacing: 5px;
+}
+.About{
+  color: white;
+  position: absolute;
+  top: 52%;
+  letter-spacing: 3px;
+}
+.Explore a{
+  color: white;
+  position: absolute;
+  top:65%;
+  letter-spacing: 5px;
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
+}
