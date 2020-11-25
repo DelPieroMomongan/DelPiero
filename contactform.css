@@ -1,56 +1,69 @@
-.contact-form{
-  width: 80%;
-  max-width: 600px;
-  background: transparent;
-  position: absolute;
-  top: 90%;
-  left: 30%;
-  transform: translate(-50%,-50%);
-  padding: 30px 40px;
-  box-sizing: border-box;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 0 20px white;
-  font-family: 'Poppins';
-  letter-spacing: 3px;
+*{
+  margin : 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
-.contact-form h1{
-  margin-top: 0;
-  font-weight: 200;
-  color: white;
+@media (max-width: 1000px){
+  .flex-list{
+    flex-wrap: wrap;
+  }
+  .flex-list li{
+    width: 50%;
+  }
 }
-.txtb{
-  border: 1px white;
-  margin: 8px 0;
-  padding: 12px 18px;
-  border-radius: 8px;
+.body{
+  background-color: black;
 }
-.txtb label{
+
+nav{
   display: block;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 13px;
-  color: white;
-}
-.txtb input,.txtb textarea{
-  width: 100%;
-  border: none;
-  background: none;
-  outline: none;
-  font-size: 18px;
-  margin-top: 6px;
-  color: white;
+  justify-content: center;
+  align-items: baseline;
+  min-height: 8vh;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
 
 }
-.btn{
-  display: inline-block;
-  background-color: white;
-  padding: 14px 0;
+.logo{
   color: white;
   text-transform: uppercase;
-  cursor: pointer;
-  margin-top: 8px;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.nav-links{
+  display: inline;
+  width: 70px;
+  letter-spacing: 5px;
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  width:100px;
+  spacing: 30px;
+}
+
+.heading{
+  color: white;
+  position: absolute;
+  top: 46%;
   width: 100%;
+  text-align: left;
+  letter-spacing: 5px;
+}
+.About{
+  color: white;
+  position: absolute;
+  top: 52%;
+  letter-spacing: 3px;
+}
+.Explore a{
+  color: white;
+  position: absolute;
+  top:65%;
+  letter-spacing: 5px;
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
 }
 .footer{
   background-color: black;
@@ -69,29 +82,31 @@
   text-align: center;
   letter-spacing: 3px;
 }
-nav{
-  display: inline-grid;
-  justify-content: center;
-  align-items:center;
-  min-height: 8vh;
-  background-color: black;
-  font-family: 'Poppins', sans-serif;
+.title{
+  background-image:url(https://mspmag.com/downloads/51327/download/shutterstock_250740013.jpg?cb=d4a754598dfd50f39407b250fbbd390a&w=640);
+}
+.title h8{
+  font-family:'Poppins';
+  color: white;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.wpb_wrapper p{
+  font-family: 'Poppins';
+  letter-spacing: 2px;
+  background-color: none;
+  color: black;
+  font-size: 13px
+}
+.wpb_wrapper h9{
+  font-family: 'Poppins';
+  letter-spacing: 3px;
+  font-size: 25px;
+}
+a {
+  font-family: 'Poppins';
+  color: brown;
+  letter-spacing: 3px;
+  background-color: none;
+}
 
-}
-.logo{
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 20px;
-}
-.nav-links{
-  display: block;
-  width: 70px;
-  letter-spacing: 5px;
-}
-.nav-links a{
-  color: white;
-  text-decoration: none;
-  width:100px;
-  spacing: 30px;
-}
