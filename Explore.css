@@ -1,0 +1,111 @@
+*{
+  margin : 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+@media (max-width: 1000px){
+  .flex-list{
+    flex-wrap: wrap;
+  }
+  .flex-list li{
+    width: 50%;
+  }
+}
+.body{
+  background-color: black;
+}
+
+nav{
+  display: block;
+  justify-content: center;
+  align-items: baseline;
+  min-height: 8vh;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+
+}
+.logo{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.nav-links{
+  display: inline;
+  width: 70px;
+  letter-spacing: 5px;
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  width:100px;
+  spacing: 30px;
+}
+
+.heading{
+  color: white;
+  position: absolute;
+  top: 46%;
+  width: 100%;
+  text-align: left;
+  letter-spacing: 5px;
+}
+.About{
+  color: white;
+  position: absolute;
+  top: 52%;
+  letter-spacing: 3px;
+}
+.Explore a{
+  color: white;
+  position: absolute;
+  top:65%;
+  letter-spacing: 5px;
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
+}
+.footer{
+  background-color: black;
+  font-family: 'Poppins';
+}
+.footer h5{
+  font-size: 40px;
+  font: 'Poppins';
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.footer li{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.title{
+  background-image:url(https://mspmag.com/downloads/51327/download/shutterstock_250740013.jpg?cb=d4a754598dfd50f39407b250fbbd390a&w=640);
+}
+.title h8{
+  font-family:'Poppins';
+  color: white;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.wpb_wrapper p{
+  font-family: 'Poppins';
+  letter-spacing: 2px;
+  background-color: none;
+  color: black;
+  font-size: 13px
+}
+.wpb_wrapper h9{
+  font-family: 'Poppins';
+  letter-spacing: 3px;
+  font-size: 25px;
+}
+a {
+  font-family: 'Poppins';
+  color: brown;
+  letter-spacing: 3px;
+  background-color: none;
+}
