@@ -1,3 +1,17 @@
+*{
+  margin : 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+@media (max-width: 1000px){
+  .flex-list{
+    flex-wrap: wrap;
+  }
+  .flex-list li{
+    width: 50%;
+  }
+}
 nav{
   display: inline-grid;
   justify-content: center;
@@ -38,12 +52,19 @@ nav{
   position: absolute;
   top: 52%;
   letter-spacing: 3px;
+  background-color: none;
+  font-family: 'Poppins';
 }
-.Explore a{
+.footer h5{
+  font-size: 40px;
+  font: 'Poppins';
   color: white;
-  position: absolute;
-  top:65%;
-  letter-spacing: 5px;
-  text-align: right;
-  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.footer li{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
 }
